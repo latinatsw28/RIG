@@ -1,0 +1,83 @@
+.container {
+  display: grid;
+  grid-template-columns: 10;
+ grid-template-rows: 50px;
+  
+}
+
+.item {
+  
+  border: 1px solid #fff;
+  padding: 5px;
+}
+
+.item1 {text-align:center;
+  grid-column-start: 1;
+  grid-column-end:3;
+  background-color: blue;
+}
+ .item3{text-align: center;
+   grid-column-start: 3;
+   grid-column-end: 12;
+   background-color: gray;
+ }
+ 
+ .container1{
+   display: grid;
+   grid-template-columns: 10;
+ grid-template-rows: 40px;
+  }
+ 
+ 
+ 
+ .item4{text-align:center;
+ grid-column-start: 1;
+ grid-column-end: 5;
+ background-color: rebeccapurple;
+ }
+ 
+ .item5{text-align:center;
+ grid-column-start: 5;
+ grid-column-end: 9;
+ background-color: purple;
+ }
+ 
+.item6{text-align:center;
+ grid-column-start: 9;
+ grid-column-end: 12;
+ background-color: pink;
+ }
+ 
+ .container2{
+   display: grid;
+   grid-template-columns: 60;
+ grid-template-rows: 200px;
+ background-color: black;
+  }
+  
+  .item7{
+ grid-column-start: 1;
+ grid-column-end: 6;
+ background-image: "C:\Users\Matthew\Pictures\small grid pic.png";
+ 
+  }
+ 
+ .item8{text-align:center;
+ grid-column-start: 6;
+ grid-column-end: 12;
+ background-image: "C:\Users\Matthew\Pictures\small grid pic.png"
+ }
+ 
+ .container3{
+   display: grid;
+   grid-template-columns: 30;
+ grid-template-rows: 60px;
+ 
+ }
+ 
+ .item9 {text-align: center;
+ grid-column-start: 1;
+ grid-column-end: 12;
+ background-color: red;  
+ }
+  
